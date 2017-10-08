@@ -1,0 +1,10 @@
+<div class="page-projects">
+	<ul>
+		<li ng-repeat="project in data">
+			<a ng-href="#/projects/{{project.id}}">
+				<img ng-src="{{ project.thumbnail }}" alt="{{project.name}}" class="responsive" />
+				<span ng-bind="captionText(project)"></span>
+			</a>
+		</li>
+	</ul>
+</div>

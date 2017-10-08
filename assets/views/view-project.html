@@ -1,0 +1,11 @@
+<div class="page-view-project">
+	<h2>{{ data.name }} <span ng-bind="period()"></span></h2>
+	<ul class="thumbs-group">
+		<li ng-repeat="image in data.images">
+			<a ng-href="#/projects/{{data.id}}/{{src(image)}}">
+				<img ng-src="{{data.folders.thumb}}{{src(image)}}" alt="{{ title(image) }}" />
+				<span ng-bind="title(image)"></span>
+			</a>
+		</li>
+	</ul>
+</div>

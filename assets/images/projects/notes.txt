@@ -1,0 +1,2 @@
+large => size: 50%, compression: 80%
+thumb => size: 10%, compression: 90%

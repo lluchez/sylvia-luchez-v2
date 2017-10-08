@@ -1,0 +1,13 @@
+<div class="page-view-project-image">
+	
+	<div ng-show="!isLoading()">
+		<div class="image-holder">
+			<img ng-src="{{ src() }}" alt="{{ title() }}" />
+		</div>
+		<span ng-bind="title(image)" class="image-title"></span>
+	</div>
+	
+	<div ng-show="isLoading()" class="spinner-holder">
+		<img src="assets/images/spinner.gif" alt="Spinner" />
+	</div>
+</div>
