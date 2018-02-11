@@ -76,6 +76,7 @@ function generate_data()
 				"flourish.png",
 				Array("src" => "abstract_design_1.jpg", "title" => "Abstract Design 1"),
 				Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
+				Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"),
 				"alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "i_will_let_this_go.jpg",
 				"modern_token_of_affection.jpg",
 				Array("src" => "what's_missing_in_art_history.jpg", "title" => "What's Missing in Art History?")
@@ -93,12 +94,12 @@ function generate_data()
 		),
 		"still_lifes" => Array
 		(
-			"name" => "Still Lifes and Landscapes",
+			"name" => "Still Lifes",
 			"period" => Array(2013, 2015),
 			"images" => Array
 			(
 				"collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
-				"hushed_sentiment.jpg", "near_the_window.jpg", Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"), "silhouette.jpg"
+				"hushed_sentiment.jpg", "near_the_window.jpg", "silhouette.jpg"
 			)
 		),
 		"drawings" => Array
