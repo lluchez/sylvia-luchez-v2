@@ -48,14 +48,16 @@ img.responsive { display: inline-block; max-width: 100%; height: auto; }
 /* Styles for smart-phones and tablets */
 @media (max-width: 767px)
 {
+	body { padding-top: 70px; }
+	.navbar { position: fixed; top: 0; right: 0; left: 0; z-index: 1030; background-color: white; border-width: 0 0 1px; border-radius: 0; }
   .navbar-toggle .icon-bar { height: 4px; background-color: #000; transition: background-color 1s ease; }
   .navbar-toggle:hover .icon-bar { background-color: #444; }
-	
+
 	.navbar-text { font-size: 36px; text-transform: uppercase; }
 	.navbar-nav { font-size: 120%; }
-	
+
 	img.responsive { margin: 0 auto; }
-	
+
 	.page-home .main-img-holder { margin: 0px 20px 10px; }
 	.page-view-project ul.thumbs-group li { text-align: center; }
 	.page-view-project ul.thumbs-group li a img { width: 100%; }
@@ -74,10 +76,10 @@ img.responsive { display: inline-block; max-width: 100%; height: auto; }
   .navbar-nav { float: none; margin: 0 auto; display: inline-block; border-top: 1px solid #000; border-bottom: 1px solid #000; }
 	.navbar-nav > li { float: none; display: inline-block; margin-left: -2px; margin-right: -2px; }
 	.navbar-nav > li > a { display: inline-block; text-align: center; padding: 10px 25px; transition: background-color .6s ease; }
-	
+
 	h1, h2, h3 { text-align: center; }
 	.alert strong { display: block; }
-	
+
 	.page-home .main-img-holder { margin: 20px; }
 	.page-projects ul > li img { opacity: 0.8; }
 	.page-projects ul > li img:hover { opacity: 1; }
