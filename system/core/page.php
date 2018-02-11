@@ -7,13 +7,12 @@ include_once 'js-loader.php';
 class Page
 {
 
-	public $css;
-	public $js;
+	public $css, $js;
 
-	public function __construct()
+	public function __construct($version_number = null)
 	{
-		$this->css = new CssLoader();
-		$this->js = new JsLoader();
+		$this->css = new CssLoader($version_number);
+		$this->js = new JsLoader($version_number);
 	}
 
 	public function write_header($padding = "\t", $eol = "\n")
@@ -26,7 +25,7 @@ class Page
 	{
 		return DIR_IMG.$relative_url;
 	}
-	
+
 	public function render_json($json_text)
 	{
 		if( ! is_string($json_text) )

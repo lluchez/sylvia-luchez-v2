@@ -1,19 +1,21 @@
 <?php
+	$version_number = '20180211'; // to by-pass cache (needs a better system for bower resources)
+
 	// include other files
 	include_once DIR_CORE.'lib.php';
 	include_once DIR_CORE.'page.php';
 	include_once DIR_CORE.'detectmobilebrowser.php';
-	
+
 	// pre-computations
 	$jquery_folder = browser_only_supports_jquery1() ? 'jquery-old' : 'jquery';
-	$page = new Page();
+	$page = new Page($version_number);
 	$page->css->addBower('bootstrap/dist/css/bootstrap');
     $page->css->add('styles');
 	$page->js->addBower("{$jquery_folder}/dist/jquery", 'bootstrap/dist/js/bootstrap', 'angular/angular', 'angular-route/angular-route', 'jquery-ui/jquery-ui'); //, 'lodash/dist/lodash.core');
 	$page->js->add('lib/jquery.ui.touch-punch', 'prototypes-extensions', 'app');
 	if( preg_match("/IEMobile\/10\.0/", $_SERVER['HTTP_USER_AGENT'], $matches) )
 		$page->js->add('lib/ie10-viewport-bug-workaround');
-	
+
 	header('Content-Type: text/html; charset=UTF-8');
 ?><!DOCTYPE html>
 <html lang="en">
@@ -63,7 +65,7 @@
 	<div class="content-holder container">
 		<ng-view />
 	</div>
-	
+
 	<div class="footer">
 	</div>
 </body>

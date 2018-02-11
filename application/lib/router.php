@@ -1,8 +1,8 @@
 <?php
 
 	include_once DIR_CORE.'page.php';
-	
-	
+
+
 	function parse_query_string($query_string)
 	{
 		$args = Array();
@@ -28,7 +28,7 @@
 					$part = substr($query_string, 0, $pos);
 					$query_string = substr($query_string, $pos+1);
 				}
-				
+
 				$pos = strpos($part, '=');
 				if( $pos === false )
 				{
@@ -45,9 +45,9 @@
 		}
 		return Array('action' => $action, 'args' => $args);
 	}
-	
+
 	function render_json($json)
 	{
-		(new page())->render_json($json);
-		//$page->render_json($json);
+		$page = new Page();
+		$page->render_json($json);
 	}
