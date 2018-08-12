@@ -56,7 +56,7 @@
 					<li><a href="#/statement">Artist statement</a></li>
 					<li><a href="#/projects">Projects</a></li>
 					<li><a href="#/contact">Contact</a></li>
-					<li><a href="#/links">Links</a></li>
+					<!-- <li><a href="#/links">Links</a></li> -->
 				</ul>
 			</div>
 		</div>

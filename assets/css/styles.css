@@ -11,6 +11,7 @@ h1 span, h2 span, h3 span { font-style: italic; font-size: 75%; }
 a:visited { text-decoration: none; }
 a:hover { color: #555; transition: color 0.5s; }
 ul { padding: 0; list-style-type: none; }
+.navbar-nav > li > a { font-variant: small-caps; }
 
 .block { padding: 0 10px 5px; }
 .text-block { padding: 0 10px; text-align: justify; max-width: 760px; margin: 0 auto; }
@@ -71,7 +72,7 @@ img.responsive { display: inline-block; max-width: 100%; height: auto; }
 @media (min-width: 768px)
 {
   .navbar-header, .navbar-brand, .navbar-text { float: none; text-align: center; }
-  .navbar-text { display: inline-block; padding: 3px 20px; _border-bottom: 1px solid #000; font-size: 130%; letter-spacing: 1px; font-weight: bold; text-transform: uppercase; }
+  .navbar-text { display: inline-block; padding: 3px 20px; font-size: 130%; letter-spacing: 1px; font-weight: bold; text-transform: uppercase; }
   .navbar-collapse.collapse { text-align: center; }
   .navbar-nav { float: none; margin: 0 auto; display: inline-block; border-top: 1px solid #000; border-bottom: 1px solid #000; }
 	.navbar-nav > li { float: none; display: inline-block; margin-left: -2px; margin-right: -2px; }
