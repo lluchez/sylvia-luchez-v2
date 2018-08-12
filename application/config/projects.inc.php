@@ -38,7 +38,7 @@ function get_projects()
     ),
     "equilibrium" => Array
     (
-      "name" => "Equilibrium",
+      "name" => "Equilibrium/Identity Spheres",
       "period" => Array(2016),
       "images" => Array
       (
@@ -61,7 +61,7 @@ function get_projects()
         Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"),
         "alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "i_will_let_this_go.jpg",
         "modern_token_of_affection.jpg",
-        Array("src" => "what's_missing_in_art_history.jpg", "title" => "What's Missing in Art History?")
+        "art_history.jpg"
       )
     ),
     "color_theory" => Array
@@ -81,7 +81,7 @@ function get_projects()
       "images" => Array
       (
         "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
-        "hushed_sentiment.jpg", "near_the_window.jpg", "silhouette.jpg"
+        "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
       )
     ),
     "drawings" => Array
@@ -91,7 +91,7 @@ function get_projects()
       "images" => Array
       (
         "autumn_flowers.jpg", "decorative_peppers.jpg", "fall(ing)_flowers.jpg", "poinsettia_in_a_foil_vase.jpg",
-        "porcelain.jpg", "rain.jpg", "roses_in_water.jpg", "together.jpg", "wind.jpg"
+        "porcelain.jpg", "rain.jpg", "roses_in_water.jpg" /*, "together.jpg", "wind.jpg"*/
       )
     )
   );
