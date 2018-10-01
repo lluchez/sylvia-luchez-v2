@@ -1,5 +1,8 @@
 <?php
 
+// large: between 1000x1000 and 1500x1500
+// thumb: height > 250
+
 function get_projects()
 {
   return Array
@@ -55,6 +58,7 @@ function get_projects()
       "period" => null,
       "images" => Array
       (
+        "tasty_shoe.jpg",
         "flourish.png",
         Array("src" => "abstract_design_1.jpg", "title" => "Abstract Design 1"),
         Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
