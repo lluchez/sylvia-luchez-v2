@@ -1,1 +1,2 @@
 assets/bower_components
+application/config/php_mailer.conf.php
