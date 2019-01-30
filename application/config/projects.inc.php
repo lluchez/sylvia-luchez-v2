@@ -7,6 +7,15 @@ function get_projects()
 {
   return Array
   (
+    "landscapes" => Array
+    (
+      "name" => "Landscapes",
+      "period" => Array(2018),
+      "images" => Array
+      (
+        "view_from_chilnualna_falls.jpg", "chinulana_falls_in_autumn.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
+      )
+    ),
     "ceramics" => Array
     (
       "name" => "Ceramics",
@@ -84,6 +93,7 @@ function get_projects()
       "period" => Array(2013, 2015),
       "images" => Array
       (
+        Array("src" => "manos_flowers.jpg", "title" => "Mano's Flowers"),
         "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
         "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
       )
