@@ -1,7 +1,14 @@
 'use strict'
 
 !(function() {
-	
+
+	// missing prototypes
+	if( !Array.prototype.includes ) {
+		Array.prototype.includes = function(searchvalue) {
+			return (this.indexOf(searchvalue) !== -1)
+		}
+	}
+
 	// local functions
 	function formatProjectPeriod(period) {
 		if( !period || period.length == 0 )
@@ -11,15 +18,25 @@
 	function getPathFromImage(image) {
 		return (typeof image === 'string') ? image : image.src
 	}
+	var EXCEPTION_WORDS = ['a', 'an', 'and', 'at', 'from', 'in', 'of', 'the', 'with']
+	function humanizeWordFromMatch(match, sep, word, index) {
+		if( index && EXCEPTION_WORDS.includes(word) )
+			return match //.toLowerCase()
+		else if( word.match(/^i+$/) )
+			return word.toUpperCase()
+		else
+			return sep + word.substr(0,1).toUpperCase() + word.substr(1)
+	}
+	function humanizeImageName(image) {
+		return image.replace(/_/g, ' ').replace(/(^| )([a-z]+)/g, humanizeWordFromMatch)
+	}
 	function getTitleFromImage(image) {
 		if( typeof image !== 'string' )
 			return image.title
-		return image.replace(/_/g, ' ').replace(/( \d+)?\.(jpg|png)$/i, '').replace(/(^| )[a-z]/g, function(match, index) {
-			return match.toUpperCase()
-		})
+		return humanizeImageName(image.replace(/( \d+)?\.(jpg|png)$/i, ''))
 	}
 	function defaultController() {}
-	
+
 	function Slider(data, base_url, back_url) {
 		this.data = data
 		this.base_url = base_url
@@ -74,7 +91,7 @@
 		$(document).unbind('keydown')
 		$(window).unbind('resize')
 	}
-	
+
 
 	// define the module
 	angular.module("myApp", ['ngRoute'])

@@ -13,7 +13,7 @@ function get_projects()
       "period" => Array(2018),
       "images" => Array
       (
-        "view_from_chilnualna_falls.jpg", "chinulana_falls_in_autumn.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
+        "view_from_chilnualna_falls.jpg", "chilnualna_falls_in_autumn.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
       )
     ),
     "ceramics" => Array
@@ -37,9 +37,9 @@ function get_projects()
         "urban_life_1.jpg", "urban_life_2.jpg", "urban_life_5.jpg"
       )
     ),*/
-    "bw_photos" => Array
+    "photography" => Array
     (
-      "name" => "Black and White Film Photography",
+      "name" => "Photography",
       "period" => Array(2017),
       "images" => Array
       (
@@ -48,22 +48,9 @@ function get_projects()
         "housework.jpg", "in_a_hurry.jpg", "outdoor_light.jpg", "trail_of_socks.jpg"
       )
     ),
-    "equilibrium" => Array
+    "explorations" => Array
     (
-      "name" => "Equilibrium/Identity Spheres",
-      "period" => Array(2016),
-      "images" => Array
-      (
-        Array("src" => "equilibrium_1.jpg", "title" => "Equilibrium"),
-        Array("src" => "equilibrium_2.jpg", "title" => "Equilibrium"),
-        Array("src" => "america.jpg", "title" => "America"),
-        Array("src" => "perfect_whole_1.jpg", "title" => "Perfect Whole"),
-        Array("src" => "perfect_whole_2.jpg", "title" => "Perfect Whole")
-      )
-    ),
-    "art_projects" => Array
-    (
-      "name" => "Art Projects",
+      "name" => "Explorations",
       "period" => null,
       "images" => Array
       (
@@ -72,9 +59,17 @@ function get_projects()
         Array("src" => "abstract_design_1.jpg", "title" => "Abstract Design 1"),
         Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
         Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"),
-        "alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "i_will_let_this_go.jpg",
-        "modern_token_of_affection.jpg",
-        "art_history.jpg"
+        "poinsettia_in_a_foil_vase.jpg", "porcelain.jpg", "rain.jpg",
+        "modern_token_of_affection.jpg", "art_history.jpg"
+      )
+    ),
+    "printmaking" => Array
+    (
+      "name" => "Printmaking",
+      "period" => null,
+      "images" => Array
+      (
+        "alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "letting_go.jpg",
       )
     ),
     "color_theory" => Array
@@ -84,13 +79,26 @@ function get_projects()
       "images" => Array
       (
         "city_life.jpg", "stained_glass.jpg", "construction.jpg",
-        "construction_detail_1.jpg", "construction_detail_2.jpg", "ascent.jpg"
+        "construction_detail_1.jpg", /*"construction_detail_2.jpg",*/ "ascent.jpg"
+      )
+    ),
+    "equilibrium" => Array
+    (
+      "name" => "Equilibrium",
+      "period" => Array(2016),
+      "images" => Array
+      (
+        Array("src" => "equilibrium_1.jpg", "title" => "Equilibrium"),
+        // Array("src" => "equilibrium_2.jpg", "title" => "Equilibrium"),
+        Array("src" => "america.jpg", "title" => "America"),
+        // Array("src" => "perfectly_whole_1.jpg", "title" => "Perfectly Whole"),
+        Array("src" => "perfectly_whole_2.jpg", "title" => "Perfectly Whole")
       )
     ),
     "still_lifes" => Array
     (
       "name" => "Still Lifes",
-      "period" => Array(2013, 2015),
+      "period" => Array(2013, 2018),
       "images" => Array
       (
         Array("src" => "manos_flowers.jpg", "title" => "Mano's Flowers"),
@@ -101,11 +109,10 @@ function get_projects()
     "drawings" => Array
     (
       "name" => "Drawings",
-      "period" => Array(2012, "present"),
+      "period" => Array(2012, 2013),
       "images" => Array
       (
-        "autumn_flowers.jpg", "decorative_peppers.jpg", "fall(ing)_flowers.jpg", "poinsettia_in_a_foil_vase.jpg",
-        "porcelain.jpg", "rain.jpg", "roses_in_water.jpg" /*, "together.jpg", "wind.jpg"*/
+        "autumn_flowers.jpg", "decorative_peppers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "together.jpg", "wind.jpg"*/
       )
     )
   );

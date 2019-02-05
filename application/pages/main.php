@@ -45,7 +45,7 @@
 				<span class="icon-bar"></span>
 				</button>
 				<a href="#/home" class="navbar-brand">
-					<span class="navbar-text hidden-xs">Sylvia Prokopowicz-Luchez</span>
+					<span class="navbar-text hidden-xs">Sylvia Prokopowicz Luchez</span>
 					<span class="navbar-text hidden-sm hidden-md hidden-lg hidden-print">Sylvia P. Luchez</span>
 				</a>
 			</div>
