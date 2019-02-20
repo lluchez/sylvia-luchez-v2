@@ -19,6 +19,11 @@ function get_src_from_image($image)
 	return null;
 }
 
+function add_timestamp($image)
+{
+	return $image."?t=".filemtime($image);
+}
+
 function find_image_index($images, $image_src)
 {
 	//return array_key_exists($image, $images) )
@@ -37,12 +42,14 @@ function generate_data()
 	foreach($projects as $key => &$project)
 	{
 		$project["id"] = $key;
-		$project["thumbnail"] = project_path($project).$project["id"].".jpg";
+		$thumbnail = ($project["id"].".jpg");
+		if( array_key_exists("thumbnail", $project))
+			$thumbnail = $project["thumbnail"];
+		$project["thumbnail"] = add_timestamp(project_path($project).$thumbnail);
 	}
 
 	return $projects;
 }
-
 
 function generate_collection_json()
 {
@@ -53,7 +60,6 @@ function generate_collection_json()
 	}
 	return $projects;
 }
-
 
 function generate_item_json($id)
 {

@@ -10,6 +10,7 @@ function get_projects()
     "landscapes" => Array
     (
       "name" => "Landscapes",
+      "thumbnail" => "view_from_chilnualna_falls.jpg",
       "period" => Array(2018),
       "images" => Array
       (
@@ -19,6 +20,7 @@ function get_projects()
     "ceramics" => Array
     (
       "name" => "Ceramics",
+      "thumbnail" => "triangle_plate.jpg",
       "period" => Array(2017),
       "images" => Array
       (
@@ -29,6 +31,7 @@ function get_projects()
     /*"identity_spheres" => Array
     (
       "name" => "Identity Spheres",
+      //"thumbnail" => "",
       "period" => Array(2016),
       "images" => Array
       (
@@ -40,6 +43,7 @@ function get_projects()
     "photography" => Array
     (
       "name" => "Photography",
+      "thumbnail" => "in_a_hurry.jpg",
       "period" => Array(2017),
       "images" => Array
       (
@@ -51,13 +55,15 @@ function get_projects()
     "explorations" => Array
     (
       "name" => "Explorations",
+      "thumbnail" => "abstract_design_1.jpg",
       "period" => null,
       "images" => Array
       (
         "tasty_shoe.jpg",
         "flourish.png",
+        Array("src" => "fish_still_life.jpg", "title" => "Fish Still Life inspired by Edouard Manet's Fish"),
         Array("src" => "abstract_design_1.jpg", "title" => "Abstract Design 1"),
-        Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
+        // Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
         Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"),
         "poinsettia_in_a_foil_vase.jpg", "porcelain.jpg", "rain.jpg",
         "modern_token_of_affection.jpg", "art_history.jpg"
@@ -66,7 +72,8 @@ function get_projects()
     "printmaking" => Array
     (
       "name" => "Printmaking",
-      "period" => null,
+      "thumbnail" => "alien_queen.jpg",
+      "period" => Array(2016),
       "images" => Array
       (
         "alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "letting_go.jpg",
@@ -75,6 +82,7 @@ function get_projects()
     "color_theory" => Array
     (
       "name" => "Color Theory",
+      "thumbnail" => "stained_glass.jpg",
       "period" => Array(2015),
       "images" => Array
       (
@@ -85,6 +93,7 @@ function get_projects()
     "equilibrium" => Array
     (
       "name" => "Equilibrium",
+      "thumbnail" => "equilibrium_1.jpg",
       "period" => Array(2016),
       "images" => Array
       (
@@ -98,6 +107,7 @@ function get_projects()
     "still_lifes" => Array
     (
       "name" => "Still Lifes",
+      "thumbnail" => "quiet_spaces.jpg",
       "period" => Array(2013, 2018),
       "images" => Array
       (
@@ -109,10 +119,11 @@ function get_projects()
     "drawings" => Array
     (
       "name" => "Drawings",
+      "thumbnail" => "roses_in_water.jpg",
       "period" => Array(2012, 2013),
       "images" => Array
       (
-        "autumn_flowers.jpg", "decorative_peppers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "together.jpg", "wind.jpg"*/
+        "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
       )
     )
   );
