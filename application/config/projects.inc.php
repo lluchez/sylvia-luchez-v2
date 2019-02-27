@@ -61,12 +61,12 @@ function get_projects()
       (
         "tasty_shoe.jpg",
         "flourish.png",
-        Array("src" => "fish_still_life.jpg", "title" => "Fish Still Life inspired by Edouard Manet's Fish"),
+        Array("src" => "fish_still_life.jpg", "title" => "Fish Still Life inspired by Edouard Manet's Fish (Still Life)"),
         Array("src" => "abstract_design_1.jpg", "title" => "Abstract Design 1"),
         // Array("src" => "abstract_design_2.jpg", "title" => "Abstract Design 2"),
         Array("src" => "sky_and_water.jpg", "title" => "Sky and Water"),
-        "poinsettia_in_a_foil_vase.jpg", "porcelain.jpg", "rain.jpg",
-        "modern_token_of_affection.jpg", "art_history.jpg"
+        "poinsettia_in_a_foil_vase.jpg", "porcelain.jpg", "rain.jpg", "art_history.jpg"
+        //"modern_token_of_affection.jpg",
       )
     ),
     "printmaking" => Array
