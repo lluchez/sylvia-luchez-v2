@@ -82,12 +82,12 @@ function get_projects()
     "color_theory" => Array
     (
       "name" => "Color Theory",
-      "thumbnail" => "stained_glass.jpg",
+      "thumbnail" => "city_life.jpg",
       "period" => Array(2015),
       "images" => Array
       (
         "city_life.jpg", "stained_glass.jpg", "construction.jpg",
-        "construction_detail_1.jpg", /*"construction_detail_2.jpg",*/ "ascent.jpg"
+        "construction_detail.jpg", /*"construction_detail_2.jpg",*/ "ascent.jpg"
       )
     ),
     "equilibrium" => Array
