@@ -14,7 +14,7 @@ function get_projects()
       "period" => Array(2018),
       "images" => Array
       (
-        "still.jpg", "companionship.jpg", "transitions.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
+        "still.jpg", "companionship.jpg", "transitions.jpg", "memory_of_a_past_that_is_not_mine.jpg", "where_i_go_to_dream.jpg"
       )
     ),
     "ceramics" => Array
@@ -111,8 +111,7 @@ function get_projects()
       "period" => Array(2013, 2018),
       "images" => Array
       (
-        Array("src" => "manos_flowers.jpg", "title" => "Mano's Flowers"),
-        "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
+        "untamed.jpg", "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
         "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
       )
     ),
