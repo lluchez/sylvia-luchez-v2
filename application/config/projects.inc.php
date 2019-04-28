@@ -10,11 +10,11 @@ function get_projects()
     "landscapes" => Array
     (
       "name" => "Landscapes",
-      "thumbnail" => "view_from_chilnualna_falls.jpg",
+      "thumbnail" => "companionship.jpg",
       "period" => Array(2018),
       "images" => Array
       (
-        "view_from_chilnualna_falls.jpg", "chilnualna_falls_in_autumn.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
+        "still.jpg", "companionship.jpg", "transitions.jpg", "poppies_in_a_field.jpg", "altanka.jpg"
       )
     ),
     "ceramics" => Array
