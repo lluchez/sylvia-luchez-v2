@@ -23,7 +23,7 @@
 		if( index && EXCEPTION_WORDS.includes(word) )
 			return match //.toLowerCase()
 		else if( word.match(/^i+$/) )
-			return word.toUpperCase()
+			return sep + word.toUpperCase()
 		else
 			return sep + word.substr(0,1).toUpperCase() + word.substr(1)
 	}

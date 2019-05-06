@@ -14,7 +14,7 @@ function get_projects()
       "period" => Array(2018),
       "images" => Array
       (
-        "still.jpg", "companionship.jpg", "transitions.jpg", "memory_of_a_past_that_is_not_mine.jpg", "where_i_go_to_dream.jpg"
+        "still.jpg", "companionship.jpg", "transitions.jpg", "memories_of_a_past_that_is_not_mine.jpg", "where_i_go_to_dream.jpg"
       )
     ),
     "ceramics" => Array
