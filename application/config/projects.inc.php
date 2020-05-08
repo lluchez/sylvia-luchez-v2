@@ -3,57 +3,65 @@
 // large: between 1000x1000 and 1500x1500
 // thumb: height > 250
 
-function get_projects()
-{
-  return Array
-  (
-    "landscapes" => Array
-    (
+function get_projects() {
+  return Array(
+    "still_lifes" => Array(
+      "name" => "Still Lifes Paintings",
+      "thumbnail" => "quiet_spaces.jpg",
+      "period" => Array(2013, 2020),
+      "images" => Array(
+        "flowers_in_a_little_vase.jpg", "the_butterfly_has_time_enough.jpg", "on_the_spur_of_the_moment.jpg", "warmer_months.jpg",
+        "sunshine_freedom_and_a_little_flower.jpg", "there_are_always_flowers.jpg", "when_spring_is_almost_here.jpg",
+        "untamed.jpg", "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
+        "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
+      )
+    ),
+    "drawings" => Array(
+      "name" => "Drawings",
+      "thumbnail" => "roses_in_water.jpg",
+      "period" => Array(2012, 2020),
+      "images" => Array(
+        "early_spring.jpg", "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
+      )
+    ),
+    "landscapes" => Array(
       "name" => "Landscapes",
       "thumbnail" => "companionship.jpg",
       "period" => Array(2018),
-      "images" => Array
-      (
+      "images" => Array(
         "still.jpg", "companionship.jpg", "transitions.jpg", "memories_of_a_past_that_is_not_mine.jpg", "where_i_go_to_dream.jpg"
       )
     ),
-    "ceramics" => Array
-    (
+    "ceramics" => Array(
       "name" => "Ceramics",
       "thumbnail" => "triangle_plate.jpg",
       "period" => Array(2017),
-      "images" => Array
-      (
+      "images" => Array(
         Array("src" => "blue_green_container.jpg", "title" => "Blue-Green Container"),
         "mixed_design_bowl.jpg", "star_plate.jpg", "teapot.jpg", "triangle_plate.jpg"
       )
     ),
-    /*"identity_spheres" => Array
-    (
+    /*"identity_spheres" => Array(
       "name" => "Identity Spheres",
       //"thumbnail" => "",
       "period" => Array(2016),
-      "images" => Array
-      (
+      "images" => Array(
         "polish_american_1.jpg", "art_education.jpg", "french_1.jpg", "french_3.jpg", "french_4.jpg", "french_detail_1.jpg", "french_detail_2.jpg",
         "perfect_whole_1.jpg", "perfect_whole_3.jpg", "perfect_whole_detail_1.jpg", "perfect_whole_detail_2.jpg",
         "urban_life_1.jpg", "urban_life_2.jpg", "urban_life_5.jpg"
       )
     ),*/
-    "photography" => Array
-    (
+    "photography" => Array(
       "name" => "Photography",
       "thumbnail" => "in_a_hurry.jpg",
       "period" => Array(2017),
-      "images" => Array
-      (
+      "images" => Array(
         "city_park.jpg", Array("src" => "dark_flowers_1.jpg", "title" => "Dark Flowers I"),
         Array("src" => "dark_flowers_2.jpg", "title" => "Dark Flowers II"), "flowers_after_dark.jpg",
         "housework.jpg", "in_a_hurry.jpg", "outdoor_light.jpg", "trail_of_socks.jpg"
       )
     ),
-    "explorations" => Array
-    (
+    "explorations" => Array(
       "name" => "Explorations",
       "thumbnail" => "abstract_design_1.jpg",
       "period" => null,
@@ -69,62 +77,33 @@ function get_projects()
         //"modern_token_of_affection.jpg",
       )
     ),
-    "printmaking" => Array
-    (
+    "printmaking" => Array(
       "name" => "Printmaking",
       "thumbnail" => "alien_queen.jpg",
       "period" => Array(2016),
-      "images" => Array
-      (
+      "images" => Array(
         "alien_queen.jpg", "brain_space.jpg", "iteration.jpg", "letting_go.jpg",
       )
     ),
-    "color_theory" => Array
-    (
+    "color_theory" => Array(
       "name" => "Color Theory",
       "thumbnail" => "city_life.jpg",
       "period" => Array(2015),
-      "images" => Array
-      (
+      "images" => Array(
         "city_life.jpg", "stained_glass.jpg", "construction.jpg",
         "construction_detail.jpg", /*"construction_detail_2.jpg",*/ "ascent.jpg"
       )
     ),
-    "equilibrium" => Array
-    (
+    "equilibrium" => Array(
       "name" => "Equilibrium",
       "thumbnail" => "equilibrium_1.jpg",
       "period" => Array(2016),
-      "images" => Array
-      (
+      "images" => Array(
         Array("src" => "equilibrium_1.jpg", "title" => "Equilibrium"),
         // Array("src" => "equilibrium_2.jpg", "title" => "Equilibrium"),
         Array("src" => "america.jpg", "title" => "America"),
         // Array("src" => "perfectly_whole_1.jpg", "title" => "Perfectly Whole"),
         Array("src" => "perfectly_whole_2.jpg", "title" => "Perfectly Whole")
-      )
-    ),
-    "still_lifes" => Array
-    (
-      "name" => "Still Lifes Paintings",
-      "thumbnail" => "quiet_spaces.jpg",
-      "period" => Array(2013),
-      "images" => Array
-      (
-        "flowers_in_a_little_vase.jpg", "the_butterfly_has_time_enough.jpg", "on_the_spur_of_the_moment.jpg", "warmer_months.jpg",
-        "sunshine_freedom_and_a_little_flower.jpg", "there_are_always_flowers.jpg", "when_spring_is_almost_here.jpg",
-        "untamed.jpg", "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
-        "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
-      )
-    ),
-    "drawings" => Array
-    (
-      "name" => "Drawings",
-      "thumbnail" => "roses_in_water.jpg",
-      "period" => Array(2012),
-      "images" => Array
-      (
-        "early_spring.jpg", "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
       )
     )
   );
