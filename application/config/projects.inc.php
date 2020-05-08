@@ -106,11 +106,13 @@ function get_projects()
     ),
     "still_lifes" => Array
     (
-      "name" => "Still Lifes",
+      "name" => "Still Lifes Paintings",
       "thumbnail" => "quiet_spaces.jpg",
-      "period" => Array(2013, 2018),
+      "period" => Array(2013),
       "images" => Array
       (
+        "flowers_in_a_little_vase.jpg", "the_butterfly_has_time_enough.jpg", "on_the_spur_of_the_moment.jpg", "warmer_months.jpg",
+        "sunshine_freedom_and_a_little_flower.jpg", "there_are_always_flowers.jpg", "when_spring_is_almost_here.jpg",
         "untamed.jpg", "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
         "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
       )
@@ -119,10 +121,10 @@ function get_projects()
     (
       "name" => "Drawings",
       "thumbnail" => "roses_in_water.jpg",
-      "period" => Array(2012, 2013),
+      "period" => Array(2012),
       "images" => Array
       (
-        "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
+        "early_spring.jpg", "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
       )
     )
   );
