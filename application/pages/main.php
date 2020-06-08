@@ -56,7 +56,8 @@
 					<li><a href="#/statement">Artist statement</a></li>
 					<li><a href="#/projects">Projects</a></li>
 					<li><a href="#/contact">Contact</a></li>
-					<!-- <li><a href="#/links">Links</a></li> -->
+					<li><a href="https://artbysylvia.weebly.com/">Weebly</a></li>
+					<li><a href="https://www.etsy.com/shop/sylvialuchezart">Shop</a></li>
 				</ul>
 			</div>
 		</div>
