@@ -1,5 +1,5 @@
 <?php
-	$version_number = '20180211'; // to by-pass cache (needs a better system for bower resources)
+	$version_number = '20200729'; // to by-pass cache (needs a better system for bower resources)
 
 	// include other files
 	include_once DIR_CORE.'lib.php';
@@ -56,8 +56,8 @@
 					<li><a href="#/statement">Artist statement</a></li>
 					<li><a href="#/projects">Projects</a></li>
 					<li><a href="#/contact">Contact</a></li>
-					<li><a href="https://artbysylvia.weebly.com/">Weebly</a></li>
-					<li><a href="https://www.etsy.com/shop/sylvialuchezart">Shop</a></li>
+					<li><a href="https://artbysylvia.weebly.com/" target="_blank">Art By Sylvia</a></li>
+					<li><a href="https://www.etsy.com/shop/sylvialuchezart" target="_blank">Shop</a></li>
 				</ul>
 			</div>
 		</div>

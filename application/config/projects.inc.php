@@ -5,8 +5,8 @@
 
 function get_projects() {
   return Array(
-    "still_lifes" => Array(
-      "name" => "Still Lifes Paintings",
+    "still_life" => Array(
+      "name" => "Still Life Paintings",
       "thumbnail" => "quiet_spaces.jpg",
       "period" => Array(2013, 2020),
       "images" => Array(
