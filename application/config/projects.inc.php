@@ -91,7 +91,7 @@ function get_projects() {
       "period" => Array(2015),
       "images" => Array(
         "city_life.jpg", "stained_glass.jpg", "construction.jpg",
-        "construction_detail.jpg", /*"construction_detail_2.jpg",*/ "ascent.jpg"
+        "construction_detail.jpg", /*"construction_detail_2.jpg",*/ "plants_on_a_mosaic_background.jpg"
       )
     ),
     "equilibrium" => Array(
