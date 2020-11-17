@@ -18,7 +18,7 @@
 
 	header('Content-Type: text/html; charset=UTF-8');
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
 	<title>Sylvia Prokopowicz Luchez</title>
 	<link rel="SHORTCUT ICON" href="<?php echo $page->image('favicon.png'); ?>" />
@@ -29,6 +29,7 @@
 	<meta name="description" content="Polish-American contemporary artist in Chicago"/>
 	<meta name="author" content="Lionel Luchez" />
 	<meta name="robots" content="index,follow"/>
+	<meta name="image" property="og:image" content="assets/images/home_page/iteration_623x621.jpg" />
 <?php
 	$page->write_header();
 ?>
