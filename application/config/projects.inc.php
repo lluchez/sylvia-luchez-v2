@@ -5,13 +5,23 @@
 
 function get_projects() {
   return Array(
+    "flow" => Array(
+      "name" => "Flow",
+      "thumbnail" => "birthday_flowers.jpg",
+      "period" => Array(2020),
+      "images" => Array(
+        'birthday_flowers.jpg', 'layers.jpg', 'flowers_in_a_little_vase.jpg', 'on_the_spur_of_the_moment.jpg',
+        'flowers_in_a_shot_glass.jpg', 'purple_flowers_on_textured_background.jpg', 'haunted_spaces.jpg',
+        'storied_lines_hovering_in_blue.jpg', 'invasion.jpg', 'sunshine_and_freedom.jpg', 'last_one_standing.jpg', 'time_enough.jpg'
+      )
+    ),
     "still_life" => Array(
       "name" => "Still Life Paintings",
       "thumbnail" => "quiet_spaces.jpg",
       "period" => Array(2013, 2020),
       "images" => Array(
-        "flowers_in_a_little_vase.jpg", "the_butterfly_has_time_enough.jpg", "on_the_spur_of_the_moment.jpg", "warmer_months.jpg",
-        "sunshine_freedom_and_a_little_flower.jpg", "there_are_always_flowers.jpg", "when_spring_is_almost_here.jpg",
+        /*"flowers_in_a_little_vase.jpg", "the_butterfly_has_time_enough.jpg", "on_the_spur_of_the_moment.jpg", "warmer_months.jpg",
+        "sunshine_freedom_and_a_little_flower.jpg", "there_are_always_flowers.jpg", "when_spring_is_almost_here.jpg",*/
         "untamed.jpg", "collected_objects.jpg", "ghosts_of_childhood_objects.jpg", "grandmother's_objects.jpg",
         "quiet_spaces.jpg", "near_the_window.jpg", "silhouette.jpg"
       )
@@ -21,7 +31,7 @@ function get_projects() {
       "thumbnail" => "roses_in_water.jpg",
       "period" => Array(2012, 2020),
       "images" => Array(
-        "early_spring.jpg", "autumn_flowers.jpg", "fall(ing)_flowers.jpg", "roses_in_water.jpg" /*, "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
+        "early_spring.jpg", "autumn_flowers.jpg", "roses_in_water.jpg" /*, "fall(ing)_flowers.jpg", "decorative_peppers.jpg", "together.jpg", "wind.jpg"*/
       )
     ),
     "landscapes" => Array(
@@ -56,12 +66,12 @@ function get_projects() {
       "thumbnail" => "in_a_hurry.jpg",
       "period" => Array(2017),
       "images" => Array(
-        "city_park.jpg", Array("src" => "dark_flowers_1.jpg", "title" => "Dark Flowers I"),
-        Array("src" => "dark_flowers_2.jpg", "title" => "Dark Flowers II"), "flowers_after_dark.jpg",
-        "housework.jpg", "in_a_hurry.jpg", "outdoor_light.jpg", "trail_of_socks.jpg"
+        "flowers_after_dark.jpg", "housework.jpg", "in_a_hurry.jpg", "trail_of_socks.jpg"
+        // "city_park.jpg", Array("src" => "dark_flowers_1.jpg", "title" => "Dark Flowers I"),
+        // Array("src" => "dark_flowers_2.jpg", "title" => "Dark Flowers II"), "outdoor_light.jpg",
       )
     ),
-    "explorations" => Array(
+    /*"explorations" => Array(
       "name" => "Explorations",
       "thumbnail" => "abstract_design_1.jpg",
       "period" => null,
@@ -76,7 +86,7 @@ function get_projects() {
         "poinsettia_in_a_foil_vase.jpg", "porcelain.jpg", "rain.jpg", "art_history.jpg"
         //"modern_token_of_affection.jpg",
       )
-    ),
+    ),*/
     "printmaking" => Array(
       "name" => "Printmaking",
       "thumbnail" => "alien_queen.jpg",
