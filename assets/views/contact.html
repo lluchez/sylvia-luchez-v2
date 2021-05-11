@@ -1,11 +1,11 @@
 <div class="page-contact">
-	<h2>Contact me</h2>
-	
+	<h2>Contact Me</h2>
+
 	<div class="alert alert-warning" ng-show="data.error">
 		<strong>Oups something went wrong!</strong>
 		<span ng-bind="data.error"></span>
 	</div>
-	
+
 	<form action="?send_contact_email" class="form-horizontal" ng-show="!data.success">
 		<!-- Name -->
 		<div class="form-group">
@@ -42,16 +42,16 @@
 				<textarea class="form-control" ng-model="contact.message" placeholder="Message" rows="7" required></textarea>
 			</div>
 		</div>
-		
+
 		<!-- Controls -->
 		<div class="form-group">
 			<div class="col-sm-12 controls">
 				<button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-send"></i> Send</button>
-				<a href="mailto:spluchez@gmail.com" class="btn btn-link pull-right">spluchez@gmail.com</a>
+				<a href="mailto:sylvialuchezart@gmail.com" class="btn btn-link pull-right">sylvialuchezart@gmail.com</a>
 			</div>
 		</div>
 	</form>
-	
+
 	<div class="alert alert-success alert-email-sent" ng-show="data.success">
 		<strong>Email sent!</strong>
 		<span>{{ data.sender }}, your message has been successfully delivered to {{ data.recipient }}</span>

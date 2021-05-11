@@ -6,12 +6,12 @@
 function get_projects() {
   return Array(
     "flow" => Array(
-      "name" => "Flow",
+      "name" => "Wallflowers",
       "thumbnail" => "birthday_flowers.jpg",
       "period" => Array(2020),
       "images" => Array(
         'birthday_flowers.jpg', 'layers.jpg', 'flowers_in_a_little_vase.jpg', 'on_the_spur_of_the_moment.jpg',
-        'flowers_in_a_shot_glass.jpg', 'purple_flowers_on_textured_background.jpg', 'haunted_spaces.jpg',
+        'flowers_in_a_shot_glass.jpg', /*'purple_flowers_on_textured_background.jpg', */ 'haunted_spaces.jpg',
         'storied_lines_hovering_in_blue.jpg', 'invasion.jpg', 'sunshine_and_freedom.jpg', 'last_one_standing.jpg', 'time_enough.jpg'
       )
     ),
@@ -62,11 +62,11 @@ function get_projects() {
       )
     ),*/
     "photography" => Array(
-      "name" => "Photography",
+      "name" => "Black and White Film Photography",
       "thumbnail" => "in_a_hurry.jpg",
       "period" => Array(2017),
       "images" => Array(
-        "flowers_after_dark.jpg", "housework.jpg", "in_a_hurry.jpg", "trail_of_socks.jpg"
+        /*"flowers_after_dark.jpg",*/ "housework.jpg", "in_a_hurry.jpg", "trail_of_socks.jpg"
         // "city_park.jpg", Array("src" => "dark_flowers_1.jpg", "title" => "Dark Flowers I"),
         // Array("src" => "dark_flowers_2.jpg", "title" => "Dark Flowers II"), "outdoor_light.jpg",
       )
