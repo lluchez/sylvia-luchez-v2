@@ -10,7 +10,7 @@ function get_projects() {
       "thumbnail" => "blue_star.jpg",
       "period" => Array(2021, 2022),
       "images" => Array(
-        'blue_star.jpg', 'flat_star.jpg', 'yellow_star.jpg', 'rivers.jpg', 'arches.jpg', 'grounded.jpg'
+        'family.jpg', 'train_of_thought.jpg', 'blue_star.jpg', 'flat_star.jpg', 'yellow_star.jpg', 'rivers.jpg', 'arches.jpg', 'grounded.jpg'
       )
     ),
     "flow" => Array(
